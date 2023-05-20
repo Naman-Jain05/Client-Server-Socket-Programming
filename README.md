@@ -11,8 +11,8 @@ How To Run :
 4. server program "server4.py" will be an echo server (that replies the same message to the client that was received from the same client); it will be a single process server that uses the "select" method to handle multiple clients concurrently
 
 Edge cases covered:
-Keyboard interrupt ctrl+c
-Invalid argument
-Connecting to an unopened port
+Keyboard interrupt ctrl+c,
+Invalid argument,
+Connecting to an unopened port,
 Connecting to an already opened port
 
